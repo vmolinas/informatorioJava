@@ -3,7 +3,7 @@
 y luego imprimirlos por pantalla. ¿Por qué no puede usar "" en el char?
 */
 
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio3 {
     public static void main(String[] args) {

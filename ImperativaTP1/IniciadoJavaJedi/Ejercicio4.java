@@ -4,7 +4,7 @@ sumen, determine si el primer número es divisible por el segundo número y mues
 el resultado.
 */
 
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio4 {
     public static void main(String[] args) {

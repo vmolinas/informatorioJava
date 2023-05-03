@@ -6,7 +6,7 @@ El mensaje debe tener el siguiente formato:
 “Mi edad es” {Edad}
 */
 
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio8 {
     public static void main(String[] args) {

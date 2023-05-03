@@ -6,7 +6,7 @@ El mensaje debe tener el siguiente formato:
 “El resultado es “ {Resultado} “y es” {paridad}
 */
 
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio2 {
     public static void main(String[] args) {

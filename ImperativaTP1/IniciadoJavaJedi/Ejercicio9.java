@@ -3,7 +3,7 @@
 luego haga la potencia de ese número al cuadrado y al cubo.
 */
 
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio9 {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ información de: El nombre de su última mascota y nombre de la última películ
 vista. Por último mostrarlo por pantalla con el siguiente formato:
 “Nombre de la próxima bebida : ” {Nombre de mascota} {Nombre de pelicula}
 */
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio6 {
     public static void main(String[] args) {

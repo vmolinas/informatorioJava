@@ -3,7 +3,7 @@
 triángulo de asteriscos en la consola.
 */
 
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio5 {
     public static void main(String[] args) {

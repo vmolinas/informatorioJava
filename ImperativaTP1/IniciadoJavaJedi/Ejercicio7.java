@@ -4,7 +4,7 @@ guarde otros dos números enteros y multiplicarlos. Guarde en un espacio de
 memoria la suma entre estas dos multiplicaciones ¿Que resultado le da? ¿Entero o
 real? ¿Por qué?
 */
-package Imperativa.IniciadoJavaJedi;
+package ImperativaTP1.IniciadoJavaJedi;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
