@@ -7,6 +7,17 @@ ingresa 5000 pesos, el programa deberá mostrar 250 euros.
 
 package ImperativaTP1.CaballeroJavaJedi;
 
+import java.util.Scanner;
+
 public class Ejercicio5 {
-    
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        double pesos, euros;
+        System.out.print("Ingrese cantidad de pesos: ");
+        pesos = entrada.nextDouble();
+        double tasa = 400.0;
+        euros = pesos / tasa;
+        System.out.println("Euros: " + euros);
+        entrada.close();
+    }
 }

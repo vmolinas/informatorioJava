@@ -8,6 +8,14 @@ deberá mostrar 70 dólares.
 
 package ImperativaTP1.CaballeroJavaJedi;
 
+import java.util.Scanner;
+
 public class Ejercicio4 {
-    
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Ingrese la cantidad de libras esterlinas: ");
+        double libras = entrada.nextDouble();
+        System.out.println("La cantidad en dólares es: " + (libras*1.40));
+        entrada.close();
+    }
 }

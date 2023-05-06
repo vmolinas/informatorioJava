@@ -7,6 +7,15 @@ usuario ingresa 50 dólares, el programa deberá mostrar 1000 pesos.
 
 package ImperativaTP1.CaballeroJavaJedi;
 
+import java.util.Scanner;
+
 public class Ejercicio2 {
-    
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Ingrese la cantidad de dólares: ");
+        double dolares = entrada.nextDouble();
+        double pesos = dolares * 380.00;
+        System.out.println("La cantidad de pesos es: " + pesos);
+        entrada.close();
+    }
 }

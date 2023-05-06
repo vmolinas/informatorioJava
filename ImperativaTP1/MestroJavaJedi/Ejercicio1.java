@@ -6,6 +6,10 @@ resuelve.
 
 package ImperativaTP1.MestroJavaJedi;
 
+
 public class Ejercicio1 {
-    
+    public static void main(String[] args) {
+        double radio = 5;
+        System.out.println("El área es: " + (Math.PI * radio * radio));
+    }
 }

@@ -9,6 +9,26 @@ Muestre el resultado por pantalla.
 
 package ImperativaTP1.MestroJavaJedi;
 
+import java.util.Scanner;
+
 public class Ejercicio4 {
-    
+    public static void main(String[] args) {
+        try (Scanner entrada = new Scanner(System.in)) {
+            int n, media, i;
+            System.out.print("Ingrese el numero de elementos: ");
+            n = entrada.nextInt();
+            int[] numeros = new int[n];
+            System.out.print("Ingrese los numeros: ");
+            for (i = 0; i < n; i++) {
+                numeros[i] = entrada.nextInt();
+            }
+            media = 0;
+            for (i = 0; i < n; i++) {
+                media = media + numeros[i];
+            }
+            media = media / n;
+            System.out.println("La media es: " + media);
+            entrada.close();
+        }
+    }
 }
