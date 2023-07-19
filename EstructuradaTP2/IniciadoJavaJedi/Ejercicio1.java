@@ -10,19 +10,14 @@ import java.util.Scanner;
 public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int n;
-        System.out.print("Ingrese un numero: ");
-        n = entrada.nextInt();
-        int i, j;
-        for (i = 1; i <= n; i++) {
-            for (j = 1; j <= n; j++) {
-                if (i == j) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-                System.out.println();
+        System.out.print("Ingrese la cantidad de filas del triangulo: ");
+        int n = entrada.nextInt();
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<=i; j++){
+                System.out.print("*");
             }
+            System.out.println("");
         }
+        entrada.close();
     }
 }

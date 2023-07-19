@@ -9,5 +9,7 @@ cuanto
 package EstructuradaTP2.IniciadoJavaJedi;
 
 public class Ejercicio7 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
